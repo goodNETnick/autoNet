@@ -1,0 +1,40 @@
+all:
+  children:
+    cvx:
+      hosts:
+        clab-citc-border01:
+          ansible_host: 172.17.0.10
+        clab-citc-border02:
+          ansible_host: 172.17.0.4
+        clab-citc-border21:
+          ansible_host: 172.17.0.3
+        clab-citc-border22:
+          ansible_host: 172.17.0.2
+        clab-citc-leaf01:
+          ansible_host: 172.17.0.11
+        clab-citc-leaf02:
+          ansible_host: 172.17.0.7
+        clab-citc-leaf21:
+          ansible_host: 172.17.0.12
+        clab-citc-leaf22:
+          ansible_host: 172.17.0.9
+        clab-citc-spine01:
+          ansible_host: 172.17.0.6
+        clab-citc-spine02:
+          ansible_host: 172.17.0.5
+        clab-citc-spine21:
+          ansible_host: 172.17.0.13
+        clab-citc-spine22:
+          ansible_host: 172.17.0.8
+    linux:
+      hosts:
+        clab-citc-server01:
+          ansible_host: 172.20.20.3
+        clab-citc-server02:
+          ansible_host: 172.20.20.5
+        clab-citc-server03:
+          ansible_host: 172.20.20.4
+        clab-citc-server21:
+          ansible_host: 172.20.20.2
+        clab-citc-server22:
+          ansible_host: 172.20.20.6
