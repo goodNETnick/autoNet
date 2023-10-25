@@ -1,0 +1,11 @@
+{
+ "ztp": {
+   "03-provisioning-script": {
+     "plugin": {
+       "url": "http://192.168.123.11/change_hostname.sh",
+       "shell": "true"
+     },
+     "reboot-on-success": "false"
+   }
+ }
+}
